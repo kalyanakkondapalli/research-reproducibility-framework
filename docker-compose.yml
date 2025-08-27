@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  rrf:
+    build: .
+    container_name: rrf_tool
+    volumes:
+      - ./data:/data
+    command: python -m rrf.packager --input /data/project --output /data/bundle.zip

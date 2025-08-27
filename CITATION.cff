@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Research Reproducibility Framework"
+message: "If you use this software, please cite it."
+type: software
+authors:
+  - family-names: "Kondapalli"
+    given-names: "Kalyana Krishna"
+repository-code: "https://github.com/your-org/research-reproducibility-framework"
+keywords:
+  - reproducibility
+  - research
+  - Python
+  - CLI
+  - Docker
+license: MIT
+version: "0.1.0"

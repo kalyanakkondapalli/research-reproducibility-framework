@@ -1,0 +1,11 @@
+[project]
+name = "research-reproducibility-framework"
+version = "0.1.0"
+description = "Python toolkit to package datasets, code, dependencies, and results for reproducible research."
+authors = [{name = "Kalyana Krishna Kondapalli"}]
+license = {text = "MIT"}
+dependencies = ["typer>=0.9", "pyyaml>=6.0", "fastapi>=0.100", "uvicorn>=0.24", "pytest>=7.4"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
