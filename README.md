@@ -4,6 +4,38 @@
 
 Python toolkit to package datasets, code, dependencies, and results for reproducible research. CLI, Docker, and optional FastAPI dashboard included.
 
+## Problem
+
+Scientific workflows often fail reproducibility because datasets, code, dependencies, and results are not packaged together.
+
+## Solution
+
+# RRF is a Python toolkit that:
+
+- Packages code, datasets, environment, and results into reproducible bundles.
+
+- Generates a manifest with metadata (Python versions, dependencies, timestamps).
+
+- Provides CLI and optional dashboard for workflow execution.
+
+- Integrates with CI/CD pipelines (GitHub Actions, GitLab, etc.) for automated reproducibility.
+
+## Global Use
+
+- Researchers across all disciplines
+
+- JOSS audience
+
+- Open science educators and labs
+
+## Showcase Impact
+
+- Supports open science and reproducibility
+
+- Provides citation-ready workflows
+
+- Enables reproducible pipelines for teaching and research
+
 ## Quickstart
 
 ```bash
